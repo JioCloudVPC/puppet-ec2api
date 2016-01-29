@@ -1,6 +1,6 @@
 Puppet::Type.type(:ec2api_config).provide(
   :ini_setting,
-  :parent => Puppet::Type.type(:ni_setting).provider(:ruby)
+  :parent => Puppet::Type.type(:ini_setting).provider(:ruby)
 ) do
 
   def section
